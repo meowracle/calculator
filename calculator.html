@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="2"><input id="in1" type="number" width="10px"></td>
+        <td colspan="2"><input id="in2" type="number" width="10px"></td>
+    </tr>
+    <tr>
+        <td><button class="btn" id="add" onclick="addition()">Addition(+)</button></td>
+        <td><button class="btn" id="sub" onclick="subtraction()">Subtraction(-)</button></td>
+        <td><button class="btn" id="mul" onclick="multiplication()">Multiplication(x)</button></td>
+        <td><button class="btn" id="div" onclick="division()">Division(/)</button></td>
+    </tr>
+</table>
+Result: <div id="result"></div>
+</body>
+<script src="calculator.js"></script>
+</html>
